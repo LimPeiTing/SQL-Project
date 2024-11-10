@@ -175,7 +175,7 @@ JOIN
     portfolioproject.covidvaccinations vac
 	ON dea.location = vac.location
 	AND dea.date_converted = vac.date_converted
-	WHERE dea.continent IS NOT NULL AND dea.continent != ''
+WHERE dea.continent IS NOT NULL AND dea.continent != ''
 ;
 
 
