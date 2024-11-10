@@ -155,7 +155,7 @@ JOIN
     portfolioproject.covidvaccinations vac
 	ON dea.location = vac.location
 	AND dea.date_converted = vac.date_converted
-    ;
+;
 
 
 -- Select with calculation
